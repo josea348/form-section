@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario retiro juvenil</title>
+  <link rel="shortcut icon" href="img/Grupo_juvenil_Maranatha__️_20250413_203722-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <form id="formulario" action="https://formsubmit.co/jv1424937@gmail.com" method="POST" enctype="multipart/form-data">
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://josea348.github.ib/form-section/thanks.html">
+
+    <h1>Datos para retiro juvenil</h1>
+    <img src="img/Grupo_juvenil_Maranatha__️_20250413_203722-removebg-preview.png" alt="">
+    <div>
+      <fieldset>
+        <legend name="Información personal"><strong>Información personal</strong></legend>
+        <div class="divs-input">
+          <label for="Nombre completos">Nombres completos:</label>
+          <input type="text" name="Nombre completos" id="nombre_completos" placeholder="Nombre">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Sexo">Sexo:</label>
+          <select name="Sexo" id="sexo">
+            <option value="">Selecione el sexo</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Tipo documento">Tipo documento:</label>
+          <select name="Tipo documento" id="tipo_doc">
+            <option value="">Selecione tipo documento</option>
+            <option value="CC">CC</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
+            <option value="pasaporte">pasaporte</option>
+          </select>
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label>Número de identificación:</label>
+          <input type="text" id="num_id" name="Numero de identificación" placeholder="Número de identificación">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="lugar de Expedicion (doc)">Lugar de expedición del documento:</label>
+          <input type="text" id="lugar_expedicion" name="Lugar de Expedición (doc)" placeholder="Lugar de expedición del documento">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Correo">Correo:</label>
+          <input type="email" name="Correo" id="correo" placeholder="Correo">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+          <input type="date" id="fecha_nac" name="Fecha de nacimiento" placeholder="Fecha de nacimiento">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Edad">Edad:</label>
+          <input type="number" id="edad" name="Edad" placeholder="Edad">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Dirección">Dirección:</label>
+          <input type="text" id="direccion" name="Direccion" placeholder="Dirección">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Barrio">Barrio:</label>
+          <input type="text" id="barrio" name="Barrio" placeholder="Barrio">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" name="Ciudad" placeholder="Ciudad">
+          <div class="error"></div>
+        </div>
+        <div class="divs-input">
+          <label for="Celular personal">Número de celular personal:</label>
+          <input type="tel" id="cel_personal" name="Número de celular personal" placeholder="Número de celular personal">
+          <div class="error"></div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Información familiar.</strong></legend>
+        <fieldset>
+          <div class="divs-input">
+            <label for="Nombre de la madre">Nombre completo de la madre:</label>
+            <input type="text" name="Nombre de la madre" id="nom_madre" placeholder="Nombre">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Celular">Número de celular:</label>
+            <input type="tel" id="cel_madre" name="Número de celular" placeholder="Número de celular">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Ocupación de la mamá">Ocupación de la mamá:</label>
+            <input type="text" name="Ocupación de la mamá" placeholder="Ocupación de la mamá">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Correo electrónico">Correo electrónico:</label>
+            <input type="email" name="Correo electrónico" id="correo_madre" placeholder="Correo">
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="Nombre compreto del padre">Nombre completo del padre:</label>
+            <input type="text" name="Nombre del padre" id="nom_padre" placeholder="Nombre">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Celular del padre">Número de celular:</label>
+            <input type="tel" id="cel_padre" name="Número de celular del padre" placeholder="Número de celular">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Ocupación del papá">Ocupación del papá:</label>
+            <input type="text" name="Ocupación del papá" placeholder="Ocupación del papá">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Correo electrónico">Correo electrónico:</label>
+            <input type="email" name="Correo electrónico" id="correo_padre" placeholder="Correo electrónico">
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="Alguna enfermedad?">Padeces alguna enfermedad?:</label>
+            <input type="text" name="Alguna enfermedad?" placeholder="Número de hermanos">
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="toma algún medicamento?">Estás tomando algún medicamento?:</label>
+            <input type="text" name="tomando algún medicamento? " placeholder="Número de hermanos">
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="Nombre de contacto de emergencia">Nombre completo de Contacto de emergencia:</label>
+            <input type="text" name="Nombre de contacto de emergencia" id="nombre_emergencia" placeholder="Nombre">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Celular del padre">Número de celular:</label>
+            <input type="tel" id="cel_emergencia" name="Número de celular del padre" placeholder="Número de celular">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Correo electrónico">Correo electrónico:</label>
+            <input type="email" name="Correo electrónico" id="correo_emergencia" placeholder="Correo electrónico">
+            <div class="error"></div>
+          </div>
+          <div class="divs-input">
+            <label for="Parentesco">Parentesco:</label>
+            <input type="text" name="Parentesco" id="parentesco" placeholder="Parentesco">
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="Documento de identificación personal">Adjuntar copia de documento de identificación personal:</label>
+            <input type="file" id="doc_id" name="documento de identificación personal" >
+            <div class="error"></div>
+          </div>
+        </fieldset><br>
+
+        <fieldset>
+          <div class="divs-input">
+            <label for="Documento de identidad de los padres">Si es menor de edad adjuntar copia de documento de identidad de los padres:</label>
+            <input type="file" id="doc_padres" name="Documento de identidad de los padres">
+            <div class="error"></div>
+          </div>
+        </fieldset>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+  <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
